@@ -1,0 +1,11 @@
+account hsigrist@gmail.com
+host smtp.gmail.com
+port 465
+from hsigrist@gmail.com
+user hsigrist@gmail.com
+passwordeval "pass hsigrist@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/hsigrist/.local/state/msmtp/msmtp.log
+tls_starttls off

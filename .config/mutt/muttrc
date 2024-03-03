@@ -1,0 +1,4 @@
+# vim: filetype=neomuttrc
+source /usr/share/mutt-wizard/mutt-wizard.muttrc
+source /home/hsigrist/.config/mutt/accounts/hsigrist@gmail.com.muttrc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/hsigrist/.config/mutt/accounts/hsigrist@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to hsigrist@gmail.com"

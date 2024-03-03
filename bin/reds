@@ -1,0 +1,11 @@
+#!/bin/bash
+
+reds=$HOME/.local/bin/.reds
+
+if [ ! -e $reds ]; then
+    touch $reds
+    redshift -O 4000k
+else
+    rm $reds
+    redshift -x
+fi

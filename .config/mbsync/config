@@ -1,0 +1,24 @@
+IMAPStore hsigrist@gmail.com-remote
+Host imap.gmail.com
+Port 993
+User hsigrist@gmail.com
+PassCmd "pass hsigrist@gmail.com"
+AuthMechs LOGIN
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore hsigrist@gmail.com-local
+Subfolders Verbatim
+Path /home/hsigrist/.local/share/mail/hsigrist@gmail.com/
+Inbox /home/hsigrist/.local/share/mail/hsigrist@gmail.com/INBOX
+
+Channel hsigrist@gmail.com
+Expunge Both
+Far :hsigrist@gmail.com-remote:
+Near :hsigrist@gmail.com-local:
+Patterns * !"[Gmail]/All Mail" !"*fts-flatcurve*" !"*virtual*"
+Create Both
+SyncState *
+MaxMessages 0
+ExpireUnread no
+# End profile

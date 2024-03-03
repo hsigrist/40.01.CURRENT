@@ -1,0 +1,5 @@
+2024/03/03-09:47:59.880 43cd Creating DB /home/hsigrist/.config/GeoGebra/Local Storage/leveldb since it was missing.
+2024/03/03-09:48:00.879 43cd Reusing MANIFEST /home/hsigrist/.config/GeoGebra/Local Storage/leveldb/MANIFEST-000001
+2024/03/03-09:50:47.589 43ce Level-0 table #5: started
+2024/03/03-09:50:47.662 43ce Level-0 table #5: 107630 bytes OK
+2024/03/03-09:50:47.696 43ce Delete type=0 #3

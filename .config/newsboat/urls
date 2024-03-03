@@ -1,0 +1,37 @@
+"query:arch:tags # \"arch\""
+https://archlinux.org/feeds/packages/ "~Arch Linux: Recent package updates" arch
+https://www.archlinux.org/feeds/news/ "~Arch Linux: Recent news updates" arch
+https://www.reddit.com/r/archlinux.rss "~Reddit Arch Linux" arch
+https://bbs.archlinux.org/extern.php?action=feed&type=atom "~Arch Linux Forums" arch
+
+"query:artix:tags # \"artix\""
+https://artixlinux.org/feed.php "~Artix Linux Feed" artix
+https://forum.artixlinux.org/index.php?PHPSESSID=k8j7nrjabj0n1gmgkd9g5dv45o&action=.xml;type%3Drss2;limit%3D30 "~Artix Linux Forum Feed" artix
+https://www.reddit.com/r/artixlinux.rss "~Reddit Artix Linux" artix
+
+"query:vim:tags # \"vim\""
+https://www.reddit.com/r/nvim.rss vim
+https://www.reddit.com/r/vim.rss vim
+https://www.reddit.com/r/vimporn.rss vim
+
+"query:tex:tags # \"tex\""
+https://ctan.org/ctan-ann/rss tex
+http://tug.org/rss/tug.xml tex
+https://www.reddit.com/r/latex.rss tex
+https://tex.stackexchange.com/feeds tex
+
+"query:luke:tags # \"luke\""
+https://lukesmith.xyz/rss.xml luke
+https://videos.lukesmith.xyz/feeds/videos.xml?videoChannelId=2 "~Luke Smith (Videos)" luke
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (YouTube)" luke
+https://github.com/LukeSmithxyz/voidrice/commits/master.atom "~LARBS dotfiles" luke
+
+"query:math:tags # \"math\""
+https://www.scriptbarrel.com/xml.cgi?channel_id=UC_SvYP0k05UKiJ_2ndB02IA&name=blackpenredpen math
+https://www.scriptbarrel.com/xml.cgi?channel_id=UCMUu2lQ_ilNsb26oWrc5ENw&name=just-calculus math
+https://www.scriptbarrel.com/xml.cgi?channel_id=UCz5KKoq3w_50HRs0o8pRdSA&name=just-precalculus math
+https://www.scriptbarrel.com/xml.cgi?channel_id=UCQu86XKH-sG9k6pk8_F02Vw&name=bprp-fast math
+https://www.reddit.com/r/calculus.rss math
+https://www.reddit.com/r/Algebra.rss math
+https://pballew.blogspot.com/feeds/posts/default math
+https://www.theoremoftheday.org/Utilities/feed.xml math
